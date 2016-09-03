@@ -1,5 +1,6 @@
-3d9c699e9e6b0a0b0b8d3a3f70e71c49 *DESCRIPTION
-233a138a646d649714f977f6f918181e *NAMESPACE
+ed1e54c4f3f7f54d5c3fa0c4b249323c *DESCRIPTION
+db8544fa034c76d0187d3c14d8b19df0 *NAMESPACE
+59044e5334e8c5c393ea1ea344d2ca30 *R/e.roc.R
 5f213193dc19c8de106a994c162ea6df *R/fcauc.comp.fptp.R
 5ca77486c91ca815fccda3f707a63659 *R/fcauc.fptp.R
 3a1d1566e64b57fb625043ee0682cf68 *R/fcauc.x.R
@@ -7,9 +8,10 @@
 99a916c8b10a71fcaa7a9d43bba4353d *R/rocs.x.R
 d881f2f37a3647aac9bfa22262761752 *R/test.rocs.R
 a7778f20ee7f226e401efa561682b15a *man/ROCS-package.Rd
+676a1ccfd391e0f3cc6b4e4fdaf55a47 *man/e.roc.Rd
 6f6803edb2ae058d529ff164e2c739a7 *man/fcauc.comp.fptp.Rd
 178c2fa073437bc9fd489faf662e6f06 *man/fcauc.fptp.Rd
 945dd4f86f51f06f8bab32534a29650f *man/fcauc.x.Rd
 f7f1ad3991edc4d9901021e2140260d1 *man/rocs.fptp.Rd
-54ccff6cb2a1225d8f396b8cf42b785e *man/rocs.x.Rd
+94d2093a29db4161d39569457889ebcc *man/rocs.x.Rd
 0d9776d8d53a2b3f887201e4de6bf277 *man/test.rocs.Rd

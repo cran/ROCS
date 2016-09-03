@@ -20,7 +20,7 @@ rocs.x(x0, x1, s0=NULL, s1=NULL, n.perm = 1000, do.plot = TRUE, FDR.cut=0.2)
   \item{FDR.cut}{The FDR level at which to shade the AUC and calculate the FCAUC.}
 }
 \details{
-The ROCS is the surface spanned by the TPR-FPR-TDR and its projection to the TPR-TDR plain. The vulume is between the surface and its projection on the TPR-FDR plain (i.e. the AUC of ROC).
+The ROCS is the surface spanned by the TPR-FPR-TDR and its projection to the TPR-TDR plain. The volume is between the surface and its projection on the TPR-FDR plain (i.e. the AUC of ROC).
 }
 \value{
 The volume under the surface (VUS) is returned.
@@ -32,21 +32,11 @@ Yu T, Jones DP.  (2014) Improving peak detection in high-resolution LC/MS metabo
 rocs.fptp
 }
 \examples{
-#perfect separation
-x0<-runif(1000)
-x1<-runif(100)+2
+
+x0<-rnorm(500, mean=0, sd=1.5)
+x1<-rnorm(50, mean=4, sd=1)
 
 rocs.x(x0, x1)$vus
-
-#partial separation
-x0<-rnorm(1000, mean=0, sd=1.5)
-x1<-rnorm(100, mean=3, sd=1)
-
-rocs.x(x0, x1)$vus
-
-s0<-runif(length(x0), min=0.9, max=1)
-s1<-runif(length(x1), min=0.9, max=1)
-rocs.x(x0, x1, s0, s1)$vus
 
 }
 \keyword{classif}

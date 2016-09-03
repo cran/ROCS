@@ -1,14 +1,14 @@
 Package: ROCS
 Type: Package
 Title: Receiver Operating Characteristics Surface
-Version: 1.2
-Date: 2015-03-08
-Author: Tianwei Yu
+Version: 1.3
+Date: 2016-09-03
+Author: Tianwei Yu, Peizhou Liao
 Maintainer: Tianwei Yu<tyu8@emory.edu>
-Description: Plots the Receiver Operating Characteristics Surface for high-throughput class-skewed data, calculates the Volume under the Surface (VUS) and the FDR-Controlled Area Under the Curve (FCAUC), and conducts tests to compare two ROC surfaces. 
+Description: Plots the Receiver Operating Characteristics Surface for high-throughput class-skewed data, calculates the Volume under the Surface (VUS) and the FDR-Controlled Area Under the Curve (FCAUC), and conducts tests to compare two ROC surfaces. Computes eROC curve and the corresponding AUC for imperfect reference standard. 
 License: GPL-2
-Depends: rgl
-Packaged: 2015-03-16 15:08:05 UTC; tianwei
+Depends: rgl, poibin
 NeedsCompilation: no
+Packaged: 2016-09-03 21:17:59 UTC; tianwei
 Repository: CRAN
-Date/Publication: 2015-03-16 17:15:15
+Date/Publication: 2016-09-03 23:36:14

@@ -1,7 +1,5 @@
-export(
-fcauc.fptp, fcauc.x, rocs.fptp, rocs.x, test.rocs
-)
-
-import(
-rgl
-)
+export(fcauc.fptp, fcauc.x, rocs.fptp, rocs.x, test.rocs, e.roc)
+import(rgl, poibin)
+importFrom("grDevices", "topo.colors")
+importFrom("graphics", "abline", "hist", "lines", "plot", "points","text")
+importFrom("stats", "approx", "median")
